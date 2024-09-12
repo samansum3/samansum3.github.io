@@ -1,0 +1,109 @@
+{
+    "previous_attributes" : null,
+    "object" : {
+      "id" : "cs_test_b1qS51eS0otur2YjuKrMNNSl4iASqgIre6HjUppqO5au8Kp8fyRq6Y142e",
+      "object" : "checkout.session",
+      "after_expiration" : null,
+      "allow_promotion_codes" : null,
+      "amount_subtotal" : 2000,
+      "amount_total" : 2000,
+      "automatic_tax" : {
+        "enabled" : true,
+        "liability" : {
+          "type" : "self"
+        },
+        "status" : "complete"
+      },
+      "billing_address_collection" : null,
+      "cancel_url" : null,
+      "client_reference_id" : null,
+      "client_secret" : null,
+      "consent" : null,
+      "consent_collection" : null,
+      "created" : 1726055262,
+      "currency" : "usd",
+      "currency_conversion" : null,
+      "custom_fields" : [ ],
+      "custom_text" : {
+        "after_submit" : null,
+        "shipping_address" : null,
+        "submit" : null,
+        "terms_of_service_acceptance" : null
+      },
+      "customer" : null,
+      "customer_creation" : "if_required",
+      "customer_details" : {
+        "address" : {
+          "city" : null,
+          "country" : "KH",
+          "line1" : null,
+          "line2" : null,
+          "postal_code" : null,
+          "state" : null
+        },
+        "email" : "lufy7@mail.com",
+        "name" : "Lufy",
+        "phone" : null,
+        "tax_exempt" : "none",
+        "tax_ids" : [ ]
+      },
+      "customer_email" : null,
+      "expires_at" : 1726141662,
+      "invoice" : null,
+      "invoice_creation" : {
+        "enabled" : false,
+        "invoice_data" : {
+          "account_tax_ids" : null,
+          "custom_fields" : null,
+          "description" : null,
+          "footer" : null,
+          "issuer" : null,
+          "metadata" : { },
+          "rendering_options" : null
+        }
+      },
+      "livemode" : false,
+      "locale" : "en",
+      "metadata" : {
+        "external_reference_data" : "[{\"communityId\":\"199833369\",\"id\":\"199891696\"},{\"communityId\":\"202441699\",\"id\":\"202800846\"}]",
+        "external_reference_type" : "external_course"
+      },
+      "mode" : "payment",
+      "payment_intent" : "pi_3Pxp1l04PHaIAHwK1KfG6wsl",
+      "payment_link" : null,
+      "payment_method_collection" : "if_required",
+      "payment_method_configuration_details" : {
+        "id" : "pmc_1Pq67d04PHaIAHwKZqvyHrSD",
+        "parent" : "pmc_1PE2hM09E8OPZMAXGzMKXLFU"
+      },
+      "payment_method_options" : {
+        "card" : {
+          "request_three_d_secure" : "automatic"
+        }
+      },
+      "payment_method_types" : [ "card", "link" ],
+      "payment_status" : "paid",
+      "phone_number_collection" : {
+        "enabled" : false
+      },
+      "recovered_from" : null,
+      "redirect_on_completion" : "never",
+      "saved_payment_method_options" : null,
+      "setup_intent" : null,
+      "shipping_address_collection" : null,
+      "shipping_cost" : null,
+      "shipping_details" : null,
+      "shipping_options" : [ ],
+      "status" : "complete",
+      "submit_type" : null,
+      "subscription" : null,
+      "success_url" : null,
+      "total_details" : {
+        "amount_discount" : 0,
+        "amount_shipping" : 0,
+        "amount_tax" : 0
+      },
+      "ui_mode" : "embedded",
+      "url" : null
+    }
+  }
