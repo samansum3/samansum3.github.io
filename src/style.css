@@ -10,5 +10,6 @@ body {
 
   > div {
     margin: 1rem;
+    width: 100%;
   }
 }
